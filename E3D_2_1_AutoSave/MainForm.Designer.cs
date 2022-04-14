@@ -156,7 +156,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(427, 321);
+            this.panel2.Size = new System.Drawing.Size(363, 220);
             this.panel2.TabIndex = 11;
             // 
             // MainForm
@@ -167,7 +167,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "MainForm";
-            this.Size = new System.Drawing.Size(427, 321);
+            this.Size = new System.Drawing.Size(363, 220);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
