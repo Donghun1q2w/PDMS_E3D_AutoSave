@@ -20,7 +20,7 @@ namespace AutoSave.ehdgns
                 throw new ArgumentNullException(nameof(mf));
             mainForm = mf;
             Key = "AutoSave.ehdgns";
-            form = windowManager.CreateDockedWindow("AutoSave", "AutoSave", mainForm , DockedPosition.Right);
+            form = windowManager.CreateDockedWindow("AutoSave", "AutoSave", mainForm , DockedPosition.Floating );
             form.SaveLayout = true;
             form.Closed += Form_Closed;
             windowManager.WindowLayoutLoaded += WindowManager_WindowLayoutLoaded;
